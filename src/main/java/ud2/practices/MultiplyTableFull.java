@@ -1,4 +1,4 @@
-package ud2.practices;
+ºpackage ud2.practices;
 
 import java.util.Scanner;
 import java.util.Locale;
@@ -15,3 +15,4 @@ public class MultiplyTableFull {
         }
     }
 }
+
