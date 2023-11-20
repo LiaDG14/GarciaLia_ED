@@ -16,16 +16,22 @@ public class ArrayStats {
             array[i] = in.nextInt();
         }
 
+
         int minim = Integer.MAX_VALUE;
-        for(int i = 0; i < array.length; i++){
+       int maxim = Integer.MIN_VALUE;
+       for(int i = 0; i < array.length; i++){
             if(minim > array[i]){
                 minim = array[i];
 
-             }
-         }
+  
+            if(maxim < array[i]){
+                maxim = array[i];
+          }
+ 
+
+        System.out.printf("L'element més gran és: %d\n", maxim);
 
         System.out.printf("L'element més xicotet és: %d\n", minim);
-
         }
     }
 
